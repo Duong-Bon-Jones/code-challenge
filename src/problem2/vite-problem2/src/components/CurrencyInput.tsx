@@ -34,7 +34,7 @@ const CurrencyInput = ({
   onChange,
 }: CurrencyInputProps) => {
   return (
-    <div className="flex w-[600px] gap-3">
+    <div className="flex gap-3 flex-col md:flex-row md:min-w-[600px]">
       <Label htmlFor={id} className="w-[250px] ">
         {label}
       </Label>
